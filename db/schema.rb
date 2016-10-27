@@ -16,39 +16,9 @@ ActiveRecord::Schema.define(version: 20161027021731) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "rascals", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "singers", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-  end
-
-  create_table "tokimons", force: :cascade do |t|
-    t.string   "tokimon_name"
-    t.integer  "tokimon_weight"
-    t.integer  "tokimon_height"
-    t.integer  "fly"
-    t.integer  "fight"
-    t.integer  "fire"
-    t.integer  "water"
-    t.integer  "electric"
-    t.integer  "ice"
-    t.integer  "total"
-    t.integer  "trainer_id"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
-  end
-
-  create_table "trainers", force: :cascade do |t|
-    t.string   "trainer_name"
-    t.integer  "trainer_weight"
-    t.integer  "trainer_height"
-    t.integer  "level"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
   end
 
   create_table "widgets", force: :cascade do |t|
