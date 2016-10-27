@@ -11,37 +11,34 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161013004056) do
+ActiveRecord::Schema.define(version: 20161011073821) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "ar_internal_metadata", primary_key: "key", force: :cascade do |t|
-    t.string   "value"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "tokimons", force: :cascade do |t|
-    t.string   "toname"
-    t.integer  "weight"
-    t.integer  "height"
+    t.string   "tokimon_name"
+    t.integer  "tokimon_weight"
+    t.integer  "tokimon_height"
     t.integer  "fly"
-    t.integer  "flight"
+    t.integer  "fight"
     t.integer  "fire"
     t.integer  "water"
     t.integer  "electric"
-    t.integer  "frozen"
+    t.integer  "ice"
     t.integer  "total"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "trainer_id"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
   create_table "trainers", force: :cascade do |t|
-    t.string   "trname"
+    t.string   "trainer_name"
+    t.integer  "trainer_weight"
+    t.integer  "trainer_height"
     t.integer  "level"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
   create_table "widgets", force: :cascade do |t|
