@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get '/prithi' => "prithi#index"
 get '/prithi/index' => "prithi#index"
+get '/about_us' => "about_us#index"
+get '/about_us' => "about_us#index"
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
