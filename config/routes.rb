@@ -5,9 +5,9 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
+root 'prithi#index'
 
-
-  get'/prithi' => "prithi#index"
+get'/prithi' => "prithi#index"
 get '/prithi/index' => "prithi#index"
 get '/about_us' => "about_us#index"
 get '/about_us' => "about_us#index"
