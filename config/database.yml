@@ -23,17 +23,17 @@ default: &default
 
 development:
   <<: *default
-  database: cmpt276
-  username: cmpt276
-  password: thecmpt276Passw0rd
-  host: localhost
-
-  test:
-      <<: *default
-      database: cmpt276_test
-      username: cmpt276
-      password: thecmpt276Passw0rd
-      host: localhost
+  # database: cmpt276
+  # username: cmpt276
+  # password: thecmpt276Passw0rd
+  # host: localhost
+  #
+  # test:
+  #     <<: *default
+  #     database: cmpt276_test
+  #     username: cmpt276
+  #     password: thecmpt276Passw0rd
+  #     host: localhost
 
 
 

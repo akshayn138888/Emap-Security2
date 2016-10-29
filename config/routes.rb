@@ -14,7 +14,12 @@ get '/about_us' => "about_us#index"
 get '/contact_us' => "contact_us#index"
 get '/contact_us' => "contact_us#index"
 get '/sign_up' => "sign_up#index"
-get '/sign_up' => "sign_up#index"
+get '/sign_up/admin' => "sign_up#admin"
+get '/sign_up/supervisor' => "sign_up#supervisor"
+get '/sign_up/guard' => "sign_up#guard"
+
+match ':controller(/:action(/:id))', :via => :get
+match ':controller(/:action(/:id))', :via => :post
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

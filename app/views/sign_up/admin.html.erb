@@ -1,0 +1,12 @@
+<head>
+  <title>Admin Login</title>
+</head>
+
+<h1>Admin Login</h1>
+<%= form_tag prithi_path do %>
+  <label for="email">Email</label><br>
+  <%= email_field :user, :address, placeholder: "Email" %><br>
+  <label for="password">Password</label><br>
+  <%= password_field_tag :password %><br><br>
+  <%= submit_tag "Login" %>
+<% end %>

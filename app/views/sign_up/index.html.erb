@@ -36,7 +36,8 @@
                                     &nbsp &nbsp &nbsp &nbsp &nbsp Admin Login
                                   </div>
                                   <div class="text-center">
-                                  <a href="#" class="btn btn-primary" role="button">Sign in</a></div>
+                                  <!-- <a href="#" class="btn btn-primary" role="button">Sign in</a></div> -->
+																	<%= link_to 'Sign in', sign_up_admin_path(@path) %></div>
                                   <br class="clearfix"/>
                               </div>
                               <div class="clearfix">  </div>
@@ -48,7 +49,8 @@
                                     <%= image_tag("logo_supervisor.png", :alt => "supervisor login") %>
                                     &nbsp &nbsp &nbsp &nbsp  Supervisor Login
                                   </div>
-          <div class="text-center"><a href="#" class="btn btn-primary" role="button">sign in</a></div>
+          <!-- <div class="text-center"><a href="#" class="btn btn-primary" role="button">sign in</a></div> -->
+					<div class="text-center"><%= link_to 'Sign in', sign_up_supervisor_path(@path) %></div></div>
                                   <br class="clearfix"/>
                               </div>
                         </div>
@@ -60,7 +62,8 @@
                                       &nbsp &nbsp &nbsp &nbsp &nbsp  Guard Login
                                   </div>
 
-          <div class="text-center"><a href="#" class="btn btn-primary" role="button">Sign in</a></div>
+          <!-- <div class="text-center"><a href="#" class="btn btn-primary" role="button">Sign in</a></div> -->
+					<div class="text-center"><%= link_to 'Sign in', sign_up_guard_path(@path) %></div>
                                   <br class="clearfix"/>
                               </div>
                               <br class="clearfix"/>
