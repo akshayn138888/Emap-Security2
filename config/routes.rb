@@ -15,6 +15,7 @@ get '/contact_us' => "contact_us#index"
 get '/contact_us' => "contact_us#index"
 get '/sign_up' => "sign_up#index"
 get '/sign_up' => "sign_up#index"
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
