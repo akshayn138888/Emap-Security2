@@ -116,20 +116,24 @@
 		<footer class="container">
 			<div class="credit row">
 				<div class="col-md-6 col-md-offset-3">
-					<div id="templatemo_footer">Copyright © Emap security <br>
+					<div id="templatemo_footer">
+						<p> Copyright © Emap security </p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div style="text-align: right">
 						<a rel="nofollow" href="http://www.facebook.com/templatemo" target="_parent">
-                        	<img src="images/facebook.png" alt="Like us on Facebook">
-                        </a>
-						<a href="#"><img src="images/twitter.png" alt="Follow us on Twitter"></a>
-						<a href="#"><img src="images/rss.png" alt="RSS feeds"></a>
+										<%= image_tag("facebook.png", :alt => "Like us on Facebook") %>
+												</a>
+						<a href="#">
+							<%= image_tag("twitter.png", :alt => "Follow us on Twitter") %>
+						<%= image_tag("rss.png", :alt => "rss feed") %>
 					</div>
 				</div>
 			</div>
 		</footer>
+
+		
 	</div>
     <!-- templatemo 393 fantasy -->
     <script type="text/javascript" src="js/jquery.js"></script>
@@ -150,4 +154,4 @@ http://www.templatemo.com/tm-393-fantasy
 
 <h1>Behn k laudon about us lo behenchod</h1>
 <%= link_to 'about_us', about_us_path(@path) %>
---> 
+-->
