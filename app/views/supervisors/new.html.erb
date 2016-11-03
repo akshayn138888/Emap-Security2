@@ -1,0 +1,23 @@
+<h1>Supervisor Sign Up</h1>
+
+<%= form_for(:supervisor, :url => {:controller => 'supervisors', :action => 'create'}) do |f| %>
+
+  <%= f.label :email %> <br>
+  <%= f.text_field :email %><br>
+
+  <%= f.label :password %><br>
+  <%= f.password_field :password %><br>
+
+  <%= f.label :password_confirmation %><br>
+  <%= f.password_field :password_confirmation %><br>
+
+  <%= f.submit %>
+<% end %>
+
+<% if @supervisor.errors.any? %>
+    <ul>
+    <% for message_error in @supervisor.errors.full_messages %>
+      <li>* <%= message_error %></li>
+    <% end %>
+    </ul>
+<% end %>

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :widgets
+  resources :admins
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -17,6 +18,10 @@ get '/sign_up' => "sign_up#index"
 get '/sign_up/admin' => "sign_up#admin"
 get '/sign_up/supervisor' => "sign_up#supervisor"
 get '/sign_up/guard' => "sign_up#guard"
+
+get 'admin/signup' => "admins#new"
+get 'guard/signup' => "guards#new"
+get 'supervisor/signup' => "supervisors#new"
 
 match ':controller(/:action(/:id))', :via => :get
 match ':controller(/:action(/:id))', :via => :post
