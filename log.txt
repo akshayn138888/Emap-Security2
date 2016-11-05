@@ -1,0 +1,463 @@
+commit 48382d38f1ab4e8ca9f60946ee2bbfb171958fd9
+Merge: 238ddb5 e3aa54a
+Author: Prithi <pprithip@sfu.ca>
+Date:   Sat Nov 5 01:06:32 2016 +0000
+
+    Merge branch 'side'
+
+commit e3aa54a0d4a2d9d99265f65b342d854e2b381d86
+Author: Prithi <pprithip@sfu.ca>
+Date:   Sat Nov 5 01:06:01 2016 +0000
+
+    postgres setup,rake db:migrate working,Prithi created
+
+commit ac060f8af694b3f8033471a3d5a1dfe807ca4a7b
+Author: Prithi <pprithip@sfu.ca>
+Date:   Sat Nov 5 00:42:38 2016 +0000
+
+    Contact model created
+
+commit 238ddb55aa021e01f4f48b8f1747f4f4cd3a720f
+Merge: b1d3736 0883e26
+Author: Prithi <pprithip@sfu.ca>
+Date:   Fri Nov 4 23:53:25 2016 +0000
+
+    Merge branch 'side'
+
+commit 0883e268d5468e530900615a8f043d7e8dd7e505
+Author: Prithi <pprithip@sfu.ca>
+Date:   Fri Nov 4 23:52:57 2016 +0000
+
+    testing deploy : update on tim hortons
+
+commit b1d3736f2cd4753651fc174039105d732799a7b6
+Author: Prithi <pprithip@sfu.ca>
+Date:   Fri Nov 4 23:42:40 2016 +0000
+
+    Gemfile changed
+
+commit 45a6d2fa1441a4a1806cafb7e15b9b459b8c7124
+Merge: 17f98db 6615915
+Author: Prithi <pprithip@sfu.ca>
+Date:   Thu Nov 3 03:26:22 2016 +0000
+
+    Merge branch 'master' of https://git.heroku.com/whispering-shelf-40379
+
+commit 17f98db2b2aa4968f3da7194031d2bee9c9dd670
+Author: Prithi <pprithip@sfu.ca>
+Date:   Thu Nov 3 03:21:48 2016 +0000
+
+    side branch created
+
+commit 6615915085314cba212f0e05f456f22865ba4ad7
+Author: Emad Rahman <emad@Emads-MacBook-Pro.local>
+Date:   Wed Nov 2 20:20:29 2016 -0700
+
+    worksinlocalbutnotlive
+
+commit e40da0650eb994a9c7ef4c43ce87187fac808166
+Author: Emad Rahman <emad@Emads-MacBook-Pro.local>
+Date:   Wed Nov 2 20:16:54 2016 -0700
+
+    removingdroptabletest
+
+commit e6a0b6ade4a0027a22d4339f0930a0aa3275f78b
+Author: Emad Rahman <emad@Emads-MacBook-Pro.local>
+Date:   Wed Nov 2 20:12:05 2016 -0700
+
+    signupv2
+
+commit 42df582515f1aee9d8d2ae88dc70db13c19ea464
+Author: Emad Rahman <emad@Emads-MacBook-Pro.local>
+Date:   Wed Nov 2 20:02:23 2016 -0700
+
+    signupPages
+
+commit 022e76059eec4220d57106341ae13bee59ea011a
+Author: Emad Rahman <emad@Emads-MacBook-Pro.local>
+Date:   Fri Oct 28 23:18:13 2016 -0700
+
+    loginpartone
+
+commit 9e68de07563232b9750544b5581f535f9f085927
+Author: manwar <manwar@asb9838nu-c16.csil.sfu.ca>
+Date:   Fri Oct 28 18:49:13 2016 -0700
+
+    all pages working. start work on back end now
+
+commit 7cd80e2e94d98742881a3be27d7402994b567aa8
+Author: manwar <manwar@asb9838nu-c16.csil.sfu.ca>
+Date:   Fri Oct 28 17:49:05 2016 -0700
+
+    other pages added
+
+commit 97932fab8dfc048a3ec49ae0dba43c987085718f
+Author: manwar <manwar@asb9838nu-c16.csil.sfu.ca>
+Date:   Fri Oct 28 17:40:34 2016 -0700
+
+    pictures being added and layout confirmed
+
+commit 9ef4083dafff8a22d5bb4d4d317291aed6f7e92f
+Author: manwar <manwar@asb9838nu-c16.csil.sfu.ca>
+Date:   Fri Oct 28 16:53:05 2016 -0700
+
+    intial layout for new app
+
+commit 347ca59b9b29e080c4aae052a951fc25cee920bc
+Author: akshayn <akshayn@asb9838nu-e06.csil.sfu.ca>
+Date:   Wed Oct 26 21:06:03 2016 -0700
+
+    sign up
+
+commit 747cc70410de444bf399c0769c3059e0638153c4
+Author: akshayn <akshayn@asb9838nu-e06.csil.sfu.ca>
+Date:   Wed Oct 26 20:49:58 2016 -0700
+
+    contact_us_page
+
+commit 73ecfdc021638e37c5ebee7fdd22334b64a2858f
+Author: pprithip <pprithip@asb9838nu-e05.csil.sfu.ca>
+Date:   Wed Oct 26 20:18:02 2016 -0700
+
+    about_page
+
+commit e8dd5596a2438128eeeffa98be7595e648bcbdee
+Author: pprithip <pprithip@asb9838nu-e05.csil.sfu.ca>
+Date:   Wed Oct 26 20:06:00 2016 -0700
+
+    homebutton
+
+commit 0353075f3e929e17102c0dbff606cfd7f7209a1a
+Author: pprithip <pprithip@asb9838nu-e05.csil.sfu.ca>
+Date:   Wed Oct 26 19:42:19 2016 -0700
+
+    prithi controller added
+
+commit 684659922ad7790d6c22c5776e0bb17379ae7b1a
+Author: pprithip <pprithip@asb9838nu-e05.csil.sfu.ca>
+Date:   Wed Oct 26 19:08:22 2016 -0700
+
+    prithip-1
+
+commit 33497da18ac411920e403ea1f5724caa29518315
+Author: akshayn <akshayn@asb9838nu-e15.csil.sfu.ca>
+Date:   Tue Oct 25 13:58:30 2016 -0700
+
+    first push 1
+
+commit 52f3be3c6579d94fc44cd47407ead3d41c2761ca
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Fri Oct 7 10:53:50 2016 +0100
+
+    update dependencies
+
+commit de0812b6521d8c296554a367fe1ce2dd68dddec3
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue Aug 16 09:11:29 2016 +0100
+
+    bump ruby version
+
+commit 1c59efc2e40ab9e5049bafa4299f2a252afcad85
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Thu Aug 11 11:14:28 2016 +0100
+
+    Consistent naming across the guides
+
+commit ef47301832e48e3388e032d587adb7d5ffd5b016
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Thu May 5 14:17:02 2016 +0100
+
+    update title
+
+commit db1a843bb6cb0d8795635f9e3a456fa73cfa673e
+Merge: 96a9472 7c0feea
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Wed May 4 16:58:09 2016 +0100
+
+    Merge pull request #17 from heroku/next-steps
+    
+    add next steps
+
+commit 7c0feea166223be71cfe3b26fb03cf3500f3bc31
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Wed May 4 16:57:29 2016 +0100
+
+    add next steps
+
+commit 96a9472810de6fc931975dbed6d963d4f8acff92
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Wed Apr 6 16:07:12 2016 +0200
+
+    Default .env
+    
+    I modified the tutorial as well.
+
+commit 03367bab6049a5c5b29b3cd3c7ce2c2d2b103a8f
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Mon Dec 28 09:43:54 2015 +0000
+
+    update Ruby version and a few dependencies
+
+commit f0606e461ae82d8a495bbc373e0d90e8d59f3834
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Tue Dec 8 10:44:21 2015 +0000
+
+    Update README.md
+
+commit e2996ed00d6cc84d897c86ca1cdc518eacef589a
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Wed Nov 18 10:26:25 2015 +0000
+
+    remove foreman
+
+commit 601f2612038ce9d9137ca33484b56e7aeff1a6a1
+Merge: 7581bfe e59cc8b
+Author: Richard Schneeman <richard.schneeman@gmail.com>
+Date:   Wed Sep 16 09:53:59 2015 -0500
+
+    Merge pull request #15 from heroku/schneems/stuff
+    
+    Use the latest gem also get rid of warnings
+
+commit e59cc8b402a32f64a0d80d63d694f24e466193bc
+Author: schneems <richard.schneeman@gmail.com>
+Date:   Tue Sep 15 13:51:25 2015 -0500
+
+    serve_static_files
+
+commit ab1d688eaa32ea106aba72d7a3ca869884f707c6
+Author: schneems <richard.schneeman@gmail.com>
+Date:   Tue Sep 15 13:48:02 2015 -0500
+
+    rails_stdout_logging
+
+commit 7581bfe0eedcf38d04d151373a52c1e4a1b0ef96
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Thu Aug 20 14:20:22 2015 +0100
+
+    list all getting starteds
+
+commit 9786c87454a6ed82735cfc789fe629117f83c5ce
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Thu Aug 20 14:15:03 2015 +0100
+
+    add ruby-version to .gitignore
+
+commit ab8e70a14217672dbddba029ea5615f43257928e
+Merge: c25ba67 619a5ca
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Wed Aug 19 18:01:49 2015 +0100
+
+    Merge pull request #13 from heroku/schneems/sprockets
+    
+    Update Rails and Sprockets
+
+commit 619a5ca5bb3611030a3e25e1624bb735eb28a918
+Author: schneems <richard.schneeman@gmail.com>
+Date:   Wed Aug 19 11:17:56 2015 -0500
+
+    Update Rails and Sprockets
+
+commit c25ba67d934c3fe098ee29e3e32e37f4d73e9875
+Merge: 9220b96 be3550b
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Wed Aug 19 09:52:32 2015 +0100
+
+    Merge pull request #12 from nicolasleger/patch-1
+    
+    Use patched Ruby 2.2.3
+
+commit be3550b900577ea6cb1ea3d7d7452f34da2a0454
+Author: Nicolas Leger <nicolasleger@users.noreply.github.com>
+Date:   Wed Aug 19 00:52:46 2015 +0200
+
+    Use patched Ruby 2.2.3
+
+commit 9220b9604ef4d5c962fa796bcc37011ffdc18f7d
+Merge: 2e435c5 682a98c
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Aug 17 10:46:49 2015 +0100
+
+    Merge pull request #11 from heroku/prep-for-docker
+    
+    Prep for docker
+
+commit 682a98ca49b972a22b0332297c05b0e75d0a3366
+Author: Michael Friis <friism@gmail.com>
+Date:   Fri Aug 14 16:15:07 2015 -0700
+
+    add readme section
+
+commit fbd73bb0a887be4a2b244b2933ca875feaddabc3
+Author: Michael Friis <friism@gmail.com>
+Date:   Fri Aug 14 16:09:02 2015 -0700
+
+    bump ruby version
+
+commit 1ab1fca74508251c44c52a9aeb4090c261806e9c
+Author: Michael Friis <friism@gmail.com>
+Date:   Fri Aug 14 16:08:33 2015 -0700
+
+    add app.json
+
+commit 2e435c59aaee1674ab2fc2cfc228d06d26ec2a71
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue May 12 11:18:43 2015 +0100
+
+    Improve look of widgets listing
+
+commit 000dfa55eb954b8701241e3c570c3be0f1687dc4
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue May 12 10:59:02 2015 +0100
+
+    Fix static asset
+
+commit ca00b05cfffa0b6af5ad65da8cdf13eb41ffbfcf
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue May 12 10:48:47 2015 +0100
+
+    cleaned up the intro page
+
+commit e59d716e76dad8de151fc4787c8fb6b5e844e3dc
+Merge: 3e926b5 a8abea1
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue May 12 10:20:53 2015 +0100
+
+    Merge branch 'ui'
+
+commit a8abea13fe28bbd2890ec8073ac058cabc74dd5d
+Merge: fd38cfe 3e926b5
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue May 12 10:20:13 2015 +0100
+
+    Merge branch 'master' into ui
+
+commit 3e926b5b3f295c23c793377d7c185cd1c80ab71f
+Author: Mark Pundsack <mp@heroku.com>
+Date:   Thu Apr 9 14:44:18 2015 -0700
+
+    Fix instruction
+
+commit 22d1031ac84d36b44b5a01ac10c7f5f1eb718ef1
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Tue May 12 10:12:48 2015 +0100
+
+    explicitly commit to a ruby version; update rails to 4.2
+
+commit fd38cfe125f81124fe26e2f8bbd06be256a07f93
+Author: Nick Tassone <ntassone@gmail.com>
+Date:   Mon May 4 11:02:45 2015 -0400
+
+    added bootstrap and ui
+
+commit 6ef01db4576dd843c105d907fbc38bbd5fe1adbc
+Author: Rahul Horé <hore.rahul@gmail.com>
+Date:   Thu Feb 12 14:29:04 2015 -0500
+
+    Add a basic Puma configuration file
+    
+    Heroku recommends generating a config file rather than setting values inline in the Procfile:
+    
+    https://devcenter.heroku.com/articles/deploying-rails-applications-with-the-puma-web-server
+
+commit 79e367deec0eb782ce8478a70c74a7ac7ee15efc
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Sat Jan 24 10:14:59 2015 +0000
+
+    fix mistype of assigning port
+
+commit 6b2945514ee4f3cd9b1daf326b7fbe5eda702a0d
+Merge: 5ad3262 bb90096
+Author: Richard Schneeman <richard.schneeman@gmail.com>
+Date:   Fri Jan 23 14:54:15 2015 -0800
+
+    Merge pull request #4 from heroku/schneems/puma
+    
+    replace unicorn with puma!
+
+commit bb90096b3aacbcf68b2f884ff7ca753d4dc020c0
+Author: schneems <richard.schneeman@gmail.com>
+Date:   Fri Jan 23 14:56:08 2015 -0800
+
+    replace unicorn with puma!
+
+commit 5ad3262d3b90e50ae9362070a4ca94f5916d494b
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Mon Dec 1 10:23:36 2014 +0000
+
+    update to rails 4.1.8
+
+commit 1aa5fd1e485d5ffdf5b37277d077a3689b5d1c83
+Author: Jon Mountjoy <tech@jonmountjoy.com>
+Date:   Mon Dec 1 10:20:29 2014 +0000
+
+    tidy up Gemfile
+
+commit e8a2ef760cb55e8e864b1deed10de349bdc21dcd
+Merge: c79a261 3a74a6c
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Dec 1 10:19:07 2014 +0000
+
+    Merge pull request #1 from pmq20/master
+    
+    Upgrade to Rails 4.1.6
+
+commit 3a74a6c8b8ce2655689c2ac59f6e427d8bfa23ca
+Author: P.S.V.R <pmq2001@gmail.com>
+Date:   Wed Sep 24 16:06:07 2014 +0000
+
+    Upgrade to Rails 4.1.6
+
+commit c79a261a9fbecdec38eb0ab6def26f99f01e8342
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Thu Aug 28 11:03:00 2014 +0100
+
+    don't force a ruvy vm version
+
+commit 9936bfe6af97a6cb72e298604ac0db2de0448626
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Aug 25 13:47:48 2014 +0100
+
+    Update README.md
+
+commit 493bc2369ba821e6f84f3e54d98ed3544890d74e
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Fri Jul 11 12:01:08 2014 +0100
+
+    improve README
+
+commit 869340c199e1e3a01567631a6c90d55bbd85bf44
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Fri Jul 11 11:18:50 2014 +0100
+
+    upgrade to ruby 2.1.2
+
+commit b73bd2d1df152f26a7211d566c21bdf4bce8332a
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Jul 7 13:45:02 2014 +0100
+
+    add a default welcome screen and a readme
+
+commit 0c4f3886ee4e1cd696a054071df840f7b8106d44
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Jul 7 13:12:11 2014 +0100
+
+    add an explicit ruby version
+
+commit 314e056cbead54175cd7fd479f3bdefb78e59b40
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Jul 7 12:38:55 2014 +0100
+
+    added unicorn
+
+commit a610ad20d8715a340dd57e7c8cbebe44a970bfc5
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Jul 7 12:17:32 2014 +0100
+
+    rails generate scaffold Widgets name:string description:text stock:integer
+
+commit 312d8123506dfa5d6b61b5144341942954834378
+Author: Jon Mountjoy <jon@heroku.com>
+Date:   Mon Jul 7 12:12:15 2014 +0100
+
+    generated from: rails new ruby-getting-started --database=postgresql
