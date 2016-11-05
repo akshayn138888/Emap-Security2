@@ -1,3 +1,17 @@
+commit 4987efad6fe7c355a201fb22ff380b85c7c53e3d
+Author: Prithi <pprithip@sfu.ca>
+Date:   Sat Nov 5 01:35:04 2016 +0000
+
+    drop <--> from model file removed; gemfile changed version
+
+commit 1397c39e3513edd1f122c4eb9199ba5cfd99bfa8
+Author: Prithi <pprithip@sfu.ca>
+Date:   Sat Nov 5 01:27:10 2016 +0000
+
+    Revert "postgres setup,rake db:migrate working,Prithi created"
+    
+    This reverts commit e3aa54a0d4a2d9d99265f65b342d854e2b381d86.
+
 commit 12a24d0279e756a4b32cdd2cc2f694fa74ebf09b
 Author: Prithi <pprithip@sfu.ca>
 Date:   Sat Nov 5 01:24:44 2016 +0000
