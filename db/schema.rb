@@ -11,10 +11,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161105044921) do
+=======
+ActiveRecord::Schema.define(version: 20161103025623) do
+>>>>>>> parent of 4987efa... drop <--> from model file removed; gemfile changed version
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "abouts", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "admins", force: :cascade do |t|
     t.string   "email"
@@ -29,10 +38,6 @@ ActiveRecord::Schema.define(version: 20161105044921) do
   end
 
   create_table "contacts", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "phone"
-    t.string   "message"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -42,6 +47,11 @@ ActiveRecord::Schema.define(version: 20161105044921) do
     t.string   "password"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "logins", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "services", force: :cascade do |t|
