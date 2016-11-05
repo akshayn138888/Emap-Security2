@@ -12,7 +12,11 @@
 # It's strongly recommended that you check this file into your version control system.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161105044921) do
+=======
+ActiveRecord::Schema.define(version: 20161103025623) do
+>>>>>>> parent of 4987efa... drop <--> from model file removed; gemfile changed version
 =======
 ActiveRecord::Schema.define(version: 20161103025623) do
 >>>>>>> parent of 4987efa... drop <--> from model file removed; gemfile changed version
