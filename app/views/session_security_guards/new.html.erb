@@ -1,0 +1,7 @@
+<%= form_for(:session, url: login_security_guard_path) do |f| %> 
+  <%= f.email_field :email, :placeholder => "Email" %> 
+  <%= f.password_field :password, :placeholder => "Password" %> 
+  <%= f.submit "Log in", class: "btn-submit" %>
+<% end %>
+
+<p align="center"><%=link_to("SignUp as Security Guards", {:controller => "sign_upp_security_guards", :action => "new"})%></p>
