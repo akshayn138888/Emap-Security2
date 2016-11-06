@@ -1,10 +1,9 @@
 class CreateSupervisors < ActiveRecord::Migration
   def change
-    
     create_table :supervisors do |t|
-      t.string :email
-      t.string :password
-      t.timestamps
+      t.string :name
+      t.string :age
+      t.timestamps null: false
     end
   end
 end

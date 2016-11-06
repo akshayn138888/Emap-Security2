@@ -11,11 +11,13 @@ class AdminsController < ApplicationController
     if @admin.save
       flash[:notice] = "You signed up successfully"
       flash[:color]= "valid"
+      redirect_to :action => "index"
+      
     else
       flash[:notice] = "Form is invalid"
       flash[:color]= "invalid"
     end
-    render "new"
+   
   end
 
 
