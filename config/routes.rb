@@ -19,8 +19,9 @@ get '/supervisors/new' => "supervisors#new"
 resources :supervisors
 
 
-get '/sign_upp'=> "sign_upps#new" 
-get '/sign_upp/new'=> "sign_upps#new" 
+get '/sign_upps'=> "sign_upps#new" 
+get '/sign_upps/new'=> "sign_upps#new" 
+get '/sign_upps/index' => "sign_upps#index"
 resources :sign_upps
 
 
