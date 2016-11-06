@@ -24,5 +24,3 @@ class SessionAdmninsController < ApplicationController
     end    
         
 end 
-    
-    
