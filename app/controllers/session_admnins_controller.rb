@@ -1,5 +1,9 @@
 class SessionAdmninsController < ApplicationController
     
+    def logedin
+        
+    end
+    
     def new
     end 
     
@@ -8,7 +12,7 @@ class SessionAdmninsController < ApplicationController
          
     	if @sign_upp && @sign_upp.authenticate(params[:session][:password])
             session[:sign_upp_id] = @sign_upp.id
-            redirect_to '/'
+            redirect_to :action => "logedin"
         else
             redirect_to 'login'
         end 
