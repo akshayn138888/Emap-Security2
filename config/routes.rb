@@ -24,6 +24,13 @@ get '/sign_upps/new'=> "sign_upps#new"
 get '/sign_upps/index' => "sign_upps#index"
 resources :sign_upps
 
+get '/sign_upp_supervisors'=> "sign_upp_supervisors#new" 
+get '/sign_upp_supervisors/new'=> "sign_upp_supervisors#new" 
+get '/sign_upp_supervisors/index'=> "sign_upp_supervisors#index" 
+resources :sign_upp_supervisors
+
+
+
 
 get 'admin/signup' => "admins#new"
 get 'guard/signup' => "guards#new"
@@ -36,6 +43,9 @@ match ':controller(/:action(/:id))', :via => :post
 
 get '/login' => 'session_admnins#new'
 post 'login' => 'session_admnins#create'
+
+get '/login_supervisor' => 'session_supervisors#new'
+post 'login_supervisor' => 'session_supervisors#create'
   
 delete 'logout' => 'session_admnins#destroy'
 
