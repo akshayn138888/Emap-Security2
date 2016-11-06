@@ -31,6 +31,11 @@ get 'supervisor/signup' => "supervisors#new"
 match ':controller(/:action(/:id))', :via => :get
 match ':controller(/:action(/:id))', :via => :post
 
+get '/login' => 'session_admnins#new'
+post 'login' => 'session_admnins#create'
+  
+delete 'logout' => 'session_admnins#destroy'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
