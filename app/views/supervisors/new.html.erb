@@ -1,8 +1,8 @@
 
-<h1>Add a new Supervisor supervisor#new</h1>
+<h1 align="center">Add a new Supervisor supervisor#new</h1>
 
 <%=form_for(@supervisor) do |s|%>
-<%=s.text_field(:first_name)%>
-<%=s.text_field(:last_name)%>
-<%=s.submit_tag("submit")%>
+<h2 align="center">Name : <%=s.text_field(:name)%> </h2>
+<h2 align="center">Age : <%=s.text_field(:age)%> </h2>
+<h2 align="center"><%=submit_tag("submit")%></h2>
 <%end%>
