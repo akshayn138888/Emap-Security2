@@ -19,8 +19,6 @@ get '/supervisors/new' => "supervisors#new"
 resources :supervisors
 
 
-<<<<<<< HEAD
-=======
 get '/sign_upp'=> "sign_upps#new" 
 get '/sign_upp/new'=> "sign_upps#new" 
 resources :sign_upps
@@ -29,7 +27,7 @@ resources :sign_upps
 get 'admin/signup' => "admins#new"
 get 'guard/signup' => "guards#new"
 get 'supervisor/signup' => "supervisors#new"
->>>>>>> 0704c64d1569d40f1b525d8a72af060b33b01725
+
 
 #here ends the new pages
 match ':controller(/:action(/:id))', :via => :get
