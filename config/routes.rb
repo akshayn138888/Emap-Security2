@@ -19,6 +19,11 @@ get '/sign_up/admin' => "sign_up#admin"
 get '/sign_up/supervisor' => "sign_up#supervisor"
 get '/sign_up/guard' => "sign_up#guard"
 
+get '/sign_upp'=> "sign_upps#new" 
+get '/sign_upp/new'=> "sign_upps#new" 
+resources :sign_upps
+
+
 get 'admin/signup' => "admins#new"
 get 'guard/signup' => "guards#new"
 get 'supervisor/signup' => "supervisors#new"
