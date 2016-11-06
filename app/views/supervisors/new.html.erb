@@ -2,7 +2,9 @@
 <h1 align="center">Add a new Supervisor supervisor#new</h1>
 
 <%=form_for(@supervisor) do |s|%>
-<h2 align="center">Name : <%=s.text_field(:name)%> </h2>
-<h2 align="center">Age : <%=s.text_field(:age)%> </h2>
+<h2 align="center">First Name : <%=s.text_field(:first_name)%> </h2>
+<h2 align="center">Last Name : <%=s.text_field(:last_name)%> </h2>
+<h2 align="center">Email : <%=s.text_field(:email)%> </h2>
+<h2 align="center">Password : <%=s.text_field(:password_digest)%> </h2>
 <h2 align="center"><%=submit_tag("submit")%></h2>
 <%end%>
