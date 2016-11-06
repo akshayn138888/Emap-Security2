@@ -14,13 +14,13 @@ class SessionAdmninsController < ApplicationController
             session[:sign_upp_id] = @sign_upp.id
             redirect_to :action => "logedin"
         else
-            redirect_to 'login'
+            redirect_to 'login_supervisor'
         end 
     end
     
     def destroy 
        session[:sign_upp_id] = nil
-       redirect_to '/login'
+       redirect_to '/login_supervisor'
     end    
         
 end 
