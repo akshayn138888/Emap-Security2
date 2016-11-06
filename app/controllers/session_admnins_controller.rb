@@ -20,7 +20,7 @@ class SessionAdmninsController < ApplicationController
     
     def destroy 
        session[:sign_upp_id] = nil
-       redirect_to '/'
+       redirect_to '/login'
     end    
         
 end 
