@@ -23,6 +23,7 @@ get '/sign_upps'=> "sign_upps#new"
 get '/sign_upps/new'=> "sign_upps#new" 
 get '/sign_upps/index' => "sign_upps#index"
 resources :sign_upps
+resources :admins
 
 get '/sign_upp_supervisors'=> "sign_upp_supervisors#new" 
 get '/sign_upp_supervisors/new'=> "sign_upp_supervisors#new" 

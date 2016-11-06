@@ -11,16 +11,21 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161106154520) do
+=======
+ActiveRecord::Schema.define(version: 20161106142357) do
+>>>>>>> 4c5b237444b20f30cdc46829b27717bcb0f35acb
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "admins", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
     t.string   "email"
-    t.string   "password"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "contacts", force: :cascade do |t|
@@ -77,8 +82,15 @@ ActiveRecord::Schema.define(version: 20161106154520) do
   end
 
   create_table "supervisors", force: :cascade do |t|
+<<<<<<< HEAD
     t.string   "name"
     t.string   "age"
+=======
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.string   "admin_id"
+>>>>>>> 4c5b237444b20f30cdc46829b27717bcb0f35acb
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
