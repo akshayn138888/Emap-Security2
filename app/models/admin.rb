@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 class Admin < ActiveRecord::Base
 
   attr_accessor :password
@@ -5,6 +6,10 @@ class Admin < ActiveRecord::Base
   validates :email, :presence => true, :uniqueness => true, :format => EMAIL_REGEX
   validates :password, :confirmation => true #password_confirmation attr
   validates_length_of :password, :in => 6..20, :on => :create
+=======
+class Admin < ActiveRecord ::Base
+>>>>>>> 0704c64d1569d40f1b525d8a72af060b33b01725
 
+    has_secure_password
 
 end
