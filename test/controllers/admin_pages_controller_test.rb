@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ContactUTest < ActiveSupport::TestCase
+class AdminPagesControllerTest < ActionController::TestCase
   # test "the truth" do
   #   assert true
   # end

@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
   resources :widgets
-  resources :admins
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -11,20 +10,17 @@ root 'prithi#index'
 get'/prithi' => "prithi#index"
 get '/prithi/index' => "prithi#index"
 get '/about_us' => "about_us#index"
-get '/about_us' => "about_us#index"
-
 get '/contact_us' => "contact_us#new"
-resources :contact_us
 
-get '/sign_up' => "sign_up#index"
-get '/sign_up/admin' => "sign_up#admin"
-get '/sign_up/supervisor' => "sign_up#supervisor"
-get '/sign_up/guard' => "sign_up#guard"
 
-get 'admin/signup' => "admins#new"
-get 'guard/signup' => "guards#new"
-get 'supervisor/signup' => "supervisors#new"
+#here comes the new pages
+get '/sign_up' => "sign_up#index" # index page
+get '/supervisors/new' => "supervisors#new"
+resources :supervisors
 
+
+
+#here ends the new pages
 match ':controller(/:action(/:id))', :via => :get
 match ':controller(/:action(/:id))', :via => :post
 

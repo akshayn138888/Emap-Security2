@@ -1,14 +1,14 @@
 class ContactUsController < ApplicationController
 
     def new
-      @contact_us = ContactUS.new
+     
     end
 
 
     def create
-      @contact = ContactUS.new(users_params)
-      if @contact.save
-        session[:contact_id] = @contact.id
+      @contact_u = ContactU.new(users_params)
+      if @contact_u.save
+        session[:contact_u_id] = @contact_u.id
         redirect_to '/contact_us/index'
       else
         redirect_to '/'
