@@ -1,26 +1,26 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: postgres
+  database: ubuntu
   pool: 5
-  username: postgres
-  password: postgres
+  username: ubuntu
+  password: ubuntu
   host: localhost
 
 test:
   adapter: postgresql
   encoding: unicode
-  database: postgres_test
+  database: ubuntu_test
   pool: 5
-  username: postgres
-  password: postgres
+  username: ubuntu
+  password: ubuntu
   host: localhost
   
 production:
   adapter: postgresql
   encoding: unicode
-  database: postgres_production
+  database: ubuntu_production
   pool: 5
-  username: postgres
-  password: postgress
+  username: ubuntu
+  password: ubuntu
   host: localhost
