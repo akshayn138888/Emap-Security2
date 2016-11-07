@@ -20,23 +20,6 @@ ActiveRecord::Schema.define(version: 20161106154520) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
-<<<<<<< HEAD
-=======
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "contact_us", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "contacts", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "phone"
-    t.string   "message"
->>>>>>> 6af95bfdb017426a618d5c97b1c80b22a80c9b0c
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
