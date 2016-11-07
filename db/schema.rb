@@ -11,19 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161106154520) do
-=======
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20161106070237) do
-=======
-<<<<<<< HEAD
-ActiveRecord::Schema.define(version: 20161106154520) do
-=======
-ActiveRecord::Schema.define(version: 20161106142357) do
->>>>>>> 4c5b237444b20f30cdc46829b27717bcb0f35acb
->>>>>>> 519f446e6b2a2cc9a5edd924a575d423015177f2
->>>>>>> 162307a53d8c678f037e23b2734d596e80f420ed
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -32,35 +20,8 @@ ActiveRecord::Schema.define(version: 20161106142357) do
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
-<<<<<<< HEAD
-    t.string   "password_digest"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-=======
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
->>>>>>> 519f446e6b2a2cc9a5edd924a575d423015177f2
-  end
-
-  create_table "contact_us", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "contacts", force: :cascade do |t|
-    t.string   "name"
-    t.string   "email"
-    t.string   "phone"
-    t.string   "message"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "guards", force: :cascade do |t|
-    t.string   "email"
-    t.string   "password"
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
   create_table "services", force: :cascade do |t|
@@ -101,24 +62,10 @@ ActiveRecord::Schema.define(version: 20161106142357) do
   end
 
   create_table "supervisors", force: :cascade do |t|
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    t.string   "name"
-    t.string   "age"
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 162307a53d8c678f037e23b2734d596e80f420ed
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
     t.string   "admin_id"
-<<<<<<< HEAD
-=======
->>>>>>> 4c5b237444b20f30cdc46829b27717bcb0f35acb
->>>>>>> 519f446e6b2a2cc9a5edd924a575d423015177f2
->>>>>>> 162307a53d8c678f037e23b2734d596e80f420ed
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
