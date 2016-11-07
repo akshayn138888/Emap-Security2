@@ -1,5 +1,10 @@
 <h1 align="center">This is Sign In page SignIn#index</h1>
 <p align="center">Turiya Turiya jaanda mere mode te bandook ve</p>
 
-<h1 align="center"><%=button_to "New Supervisor", {:controller => "supervisors", :action => "index"}, :method => "get" %></h1>
+<h1 align="center"><%=button_to "Admin", {:controller => "session_admnins", :action => "new"}, :method => "get" %></h1>
 
+<h1 align="center"><%=button_to "Supervisor", {:controller => "session_supervisors", :action => "new"}, :method => "get" %></h1>
+
+<h1 align="center"><%=button_to "Security Guard", {:controller => "session_security_guards", :action => "new"}, :method => "get" %></h1>
+
+<

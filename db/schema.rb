@@ -11,17 +11,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161106070237) do
+=======
+<<<<<<< HEAD
+ActiveRecord::Schema.define(version: 20161106154520) do
+=======
+ActiveRecord::Schema.define(version: 20161106142357) do
+>>>>>>> 4c5b237444b20f30cdc46829b27717bcb0f35acb
+>>>>>>> 519f446e6b2a2cc9a5edd924a575d423015177f2
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
   create_table "admins", force: :cascade do |t|
-    t.string   "name"
+    t.string   "first_name"
+    t.string   "last_name"
     t.string   "email"
+<<<<<<< HEAD
     t.string   "password_digest"
     t.datetime "created_at"
     t.datetime "updated_at"
+=======
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+>>>>>>> 519f446e6b2a2cc9a5edd924a575d423015177f2
   end
 
   create_table "contacts", force: :cascade do |t|
@@ -45,6 +59,24 @@ ActiveRecord::Schema.define(version: 20161106070237) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "sign_upp_security_guards", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "password_digest"
+    t.string   "email"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
+  create_table "sign_upp_supervisors", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "password_digest"
+    t.string   "email"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
   create_table "sign_upps", force: :cascade do |t|
     t.string   "first_name"
     t.string   "last_name"
@@ -60,8 +92,18 @@ ActiveRecord::Schema.define(version: 20161106070237) do
   end
 
   create_table "supervisors", force: :cascade do |t|
+<<<<<<< HEAD
     t.string   "name"
     t.string   "age"
+<<<<<<< HEAD
+=======
+=======
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.string   "admin_id"
+>>>>>>> 4c5b237444b20f30cdc46829b27717bcb0f35acb
+>>>>>>> 519f446e6b2a2cc9a5edd924a575d423015177f2
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -19,9 +19,18 @@ get '/supervisors/new' => "supervisors#new"
 resources :supervisors
 
 
-get '/sign_upp'=> "sign_upps#new" 
-get '/sign_upp/new'=> "sign_upps#new" 
+get '/sign_upps'=> "sign_upps#new" 
+get '/sign_upps/new'=> "sign_upps#new" 
+get '/sign_upps/index' => "sign_upps#index"
 resources :sign_upps
+resources :admins
+
+get '/sign_upp_supervisors'=> "sign_upp_supervisors#new" 
+get '/sign_upp_supervisors/new'=> "sign_upp_supervisors#new" 
+get '/sign_upp_supervisors/index'=> "sign_upp_supervisors#index" 
+resources :sign_upp_supervisors
+
+
 
 
 get 'admin/signup' => "admins#new"
@@ -32,6 +41,21 @@ get 'supervisor/signup' => "supervisors#new"
 #here ends the new pages
 match ':controller(/:action(/:id))', :via => :get
 match ':controller(/:action(/:id))', :via => :post
+
+get '/login' => 'session_admnins#new'
+post 'login' => 'session_admnins#create'
+delete 'logout' => 'session_admnins#destroy'
+
+get '/login_supervisor' => 'session_supervisors#new'
+post 'login_supervisor' => 'session_supervisors#create'
+  
+delete 'logout' => 'session_supervisors#destroy'
+
+get '/login_security_guard' => 'session_security_guards#new'
+post 'login_security_guard' => 'session_security_guards#create'
+resources :sign_upp_security_guards
+delete 'logout' => 'session_security_guards#destroy'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

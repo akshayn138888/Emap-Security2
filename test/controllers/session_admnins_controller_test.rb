@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class AdminPagesControllerTest < ActionController::TestCase
+class SessionAdmninsControllerTest < ActionController::TestCase
   # test "the truth" do
   #   assert true
   # end

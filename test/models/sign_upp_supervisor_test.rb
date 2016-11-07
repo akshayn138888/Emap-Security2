@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class GuardTest < ActiveSupport::TestCase
+class SignUppSupervisorTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end
