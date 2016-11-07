@@ -5,6 +5,7 @@ development:
   pool: 5
   username: ubuntu
   password: ubuntu
+  host: localhost
 
 test:
   adapter: postgresql
@@ -13,3 +14,13 @@ test:
   pool: 5
   username: ubuntu
   password: ubuntu
+  host: localhost
+  
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: ubuntu_production
+  pool: 5
+  username: ubuntu
+  password: ubuntu
+  host: localhost
