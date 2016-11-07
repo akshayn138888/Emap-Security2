@@ -15,3 +15,12 @@ test:
   username: ubuntu
   password: ubuntu
   host: localhost
+  
+production: 
+  adapter: postgresql
+  encoding: unicode
+  database: ubuntu_test
+  pool: 5
+  username: ubuntu
+  password: ubuntu
+  host: localhost
