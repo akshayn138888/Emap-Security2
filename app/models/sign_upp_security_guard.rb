@@ -8,6 +8,6 @@ class SignUppSecurityGuard < ActiveRecord::Base
     validates :email, uniqueness: true
 
    
-    belongs_to :sign_upp_supervisor
-    validates_associated :sign_upp_supervisor
+  #  belongs_to :sign_upp_supervisor
+   # validates_associated :sign_upp_supervisor
 end

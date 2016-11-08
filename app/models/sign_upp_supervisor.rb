@@ -7,8 +7,8 @@ class SignUppSupervisor < ActiveRecord::Base
   
     validates :email, uniqueness: true
 
-    belongs_to :sign_upp
-    has_many :sign_upp_security_guards 
-    validates_associated :sign_upp 
-    validates_associated :sign_upp_security_guards
+    #belongs_to :sign_upp
+    #has_many :sign_upp_security_guards 
+    #validates_associated :sign_upp 
+    #validates_associated :sign_upp_security_guards
 end
