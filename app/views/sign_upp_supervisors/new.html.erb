@@ -6,10 +6,10 @@
     <h3>*** Password must be have length of 6<h3> <br>
     
     <%= form_for(@sign_upp_supervisor) do |f| %>
-      <%= f.text_field :first_name, :placeholder => "First name" %>
-      <%= f.text_field :last_name, :placeholder => "Last name" %>
-      <%= f.email_field :email, :placeholder => "Email" %>
-      <%= f.password_field :password, :placeholder => "Password" %>
-      <%= f.submit "Create an account", class: "btn-submit" %>
+      <%= f.text_field :first_name, :placeholder => "First name" %><br>
+      <%= f.text_field :last_name, :placeholder => "Last name" %><br>
+      <%= f.email_field :email, :placeholder => "Email" %><br>
+      <%= f.password_field :password, :placeholder => "Password" %><br>
+      <%= f.submit "Create an account", class: "btn-submit" %><br>
     <% end %>
 
