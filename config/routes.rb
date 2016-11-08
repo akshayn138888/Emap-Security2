@@ -30,6 +30,10 @@ get '/sign_upp_supervisors/new'=> "sign_upp_supervisors#new"
 get '/sign_upp_supervisors/index'=> "sign_upp_supervisors#index" 
 resources :sign_upp_supervisors
 
+get '/sign_upp_security_guard'=> "sign_upp_security_guard#new" 
+get '/sign_upp_security_guard/new'=> "sign_upp_security_guard#new" 
+get '/sign_upp_security_guard/index'=> "sign_upp_security_guard#index" 
+resources :sign_upp_security_guards
 
 
 
@@ -53,7 +57,7 @@ delete 'logout' => 'session_supervisors#destroy'
 
 get '/login_security_guard' => 'session_security_guards#new'
 post 'login_security_guard' => 'session_security_guards#create'
-resources :sign_upp_security_guards
+
 delete 'logout' => 'session_security_guards#destroy'
 
 

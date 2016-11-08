@@ -10,6 +10,7 @@ class SignUppSupervisorsController < ApplicationController
     if @sign_upp_supervisor.save
       session[:sign_upp_supervisor_id] = @sign_upp_supervisor.id 
       
+
       redirect_to(:action => "index")
     else 
       redirect_to ("/sign_upp_supervisors/new")
