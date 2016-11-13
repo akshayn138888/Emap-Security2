@@ -1,7 +1,0 @@
-<p align = "centre"><%= form_for(:session, url: login_supervisor_path) do |f| %> 
- <%= f.email_field :email, :placeholder => "Email" %> <br>
-  <%= f.password_field :password, :placeholder => "Password" %><br> 
-  <%= f.submit "Log in", class: "btn-submit" %>
-<% end %></p>
-
-<p align="center"><%=link_to("SignUp as Supervisor", {:controller => "sign_upp_supervisors", :action => "new"})%></p>

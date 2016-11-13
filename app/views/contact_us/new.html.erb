@@ -1,9 +1,0 @@
-<h1>Here is the Contact Information Form</h1>
-
-<%=form_for(:contact_u,:url => {:action => "create"}) do |con|%>
-<p>Name : <%=con.text_field(:name)%></p>
-<p>Email : <%=con.text_field(:email)%></p>
-<p>Phone : <%=con.text_field(:phone)%></p>
-<p>Message : <%=con.text_field(:message)%></p>
-<%=submit_tag("Create Submit")%>
-<%end%>

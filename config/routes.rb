@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  
+  
+  
+  
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
   resources :widgets
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -9,10 +15,8 @@ root 'prithi#index'
 
 get'/prithi' => "prithi#index"
 get '/prithi/index' => "prithi#index"
-get '/about_us' => "about_us#index"
-get '/contact_us' => "contact_us#new"
-
-
+get '/prithi/about_us' => "prithi#about_us"
+get '/prithi/contact_us' => "prithi#contact_us"
 #here comes the new pages
 get '/sign_up' => "sign_up#index" # index page
 get '/supervisors/new' => "supervisors#new"

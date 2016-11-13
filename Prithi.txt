@@ -1,3 +1,0 @@
-This document is being created on my first commit from cloud9.
-branch used : side
-update on tim hortons
