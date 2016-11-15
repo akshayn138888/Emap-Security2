@@ -65,6 +65,12 @@ post 'login_security_guard' => 'session_security_guards#create'
 delete 'logout' => 'session_security_guards#destroy'
 
 
+
+resources :contacts, only: [:new, :create]
+
+
+
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
