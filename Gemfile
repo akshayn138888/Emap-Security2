@@ -37,7 +37,7 @@ gem 'spring',        group: :development
 gem 'bcrypt', '~> 3.1.11'
 
 gem 'puma'
-
+gem 'mail_form', '~> 1.6'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

@@ -11,7 +11,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20161115040806) do
+=======
+ActiveRecord::Schema.define(version: 20161113130905) do
+>>>>>>> 33a0428766a4dc0f6d082963f122caf5f420b1f9
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -57,6 +61,7 @@ ActiveRecord::Schema.define(version: 20161115040806) do
     t.datetime "updated_at", null: false
   end
 
+<<<<<<< HEAD
   create_table "guards", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
@@ -75,6 +80,8 @@ ActiveRecord::Schema.define(version: 20161115040806) do
   add_index "guards", ["email"], name: "index_guards_on_email", unique: true, using: :btree
   add_index "guards", ["reset_password_token"], name: "index_guards_on_reset_password_token", unique: true, using: :btree
 
+=======
+>>>>>>> 33a0428766a4dc0f6d082963f122caf5f420b1f9
   create_table "services", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
