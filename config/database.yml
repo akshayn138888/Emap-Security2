@@ -7,4 +7,12 @@ development:
   password: postgres
   host: localhost
 
+test:
+  adapter: postgresql 
+  encoding: unicode
+  database: postgres_test
+  pool: 5
+  username: postgres_test
+  password: postgres_test
+  host: localhost
 

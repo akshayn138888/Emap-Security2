@@ -2,11 +2,18 @@ Rails.application.routes.draw do
   
   
   devise_for :guards, path: "guards", path_names: { sign_in: 'login', sign_out: 'logout', password: 'secret', confirmation: 'verification', unlock: 'unblock', registration: 'register', sign_up: 'cmon_let_me_in' }
-
+  
+  
+  
   
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   resources :widgets
+
+  devise_scope :guard do
+    post 'sign_in', to: 'guards/sessions#dashboard'
+  end
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
