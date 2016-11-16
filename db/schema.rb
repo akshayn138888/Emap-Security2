@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20161115040806) do
+ActiveRecord::Schema.define(version: 20161113133815) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -49,14 +49,6 @@ ActiveRecord::Schema.define(version: 20161115040806) do
   add_index "admin_users", ["email"], name: "index_admin_users_on_email", unique: true, using: :btree
   add_index "admin_users", ["reset_password_token"], name: "index_admin_users_on_reset_password_token", unique: true, using: :btree
 
-  create_table "admins", force: :cascade do |t|
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "guards", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
@@ -80,6 +72,24 @@ ActiveRecord::Schema.define(version: 20161115040806) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "sign_upp_security_guards", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "password_digest"
+    t.string   "email"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
+  create_table "sign_upp_supervisors", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "password_digest"
+    t.string   "email"
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+  end
+
   create_table "sign_upps", force: :cascade do |t|
     t.string   "first_name"
     t.string   "last_name"
@@ -87,6 +97,20 @@ ActiveRecord::Schema.define(version: 20161115040806) do
     t.string   "email"
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
+  end
+
+  create_table "singers", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "supervisors", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.string   "admin_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "widgets", force: :cascade do |t|
